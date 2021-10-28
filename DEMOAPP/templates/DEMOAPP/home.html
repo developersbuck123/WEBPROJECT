@@ -1,0 +1,10 @@
+<h1>Buck</h1>
+<h1>
+    Hello Buck User
+</h1>
+<form method="POST">
+    {% csrf_token %}
+    Name : <input type="text" name="txtname">
+    <button type="button">Submit</button>
+</form>
+<h1>Welcome {{data}}</h1>
